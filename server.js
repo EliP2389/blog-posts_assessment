@@ -27,6 +27,11 @@ function filterByQueryPosts(query, postsArray) {
     return filteredResults;
 }
 
+function findById(id, postsArray) {
+    const result = postsArray.filter(posts => posts.id === id)[0];
+    return result;
+  }
+
 app.listen(PORT, () => {
     console.log(`API server now on port ${PORT}!`);
 });
