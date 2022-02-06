@@ -7,6 +7,11 @@ Create a backend api to display blog posts
 * Node
 * Express
 
+## Navigation
+* npm init
+* npm i express
+* node server.js
+
 ## Preview
 <img src="./assets/images/blog-img.png" />
 <img src="./assets/images/blog2-img.png" />
